@@ -1,1 +1,222 @@
-# IBM-Data-Analyst-Professional-Certificate
+# **IBM Data Analyst Professional Certificate**
+
+# _Introduction to Data Analytics_:
+
+## 1st Week - Intro to Data Analytics:
+
+- Data Analytics Career Path:
+  - Associate Data Analyst
+  - Data Analyst
+  - Senior Data Analyst
+  - Lead Data Analyst
+  - Principal Data Analyst
+- Branching into other data professions:
+  - Data Science
+  - Data Engineering
+  - Business Analytics
+  - Business Intelligence Analytics
+- Data-Driven Decision Maker
+- Fundamentals of Data Analysis:
+  - Gather, Clean, Analyze, and Mine Data
+  - Interpret Results
+  - Reports Findings
+- Modern Data Ecosystem:
+  - Infrastructure
+  - DataOps
+  - Consumption &amp; Apps
+  - **Emerging Technologies shaping the modern data ecosystem:**
+    - Cloud Technologies
+    - Machine Learning
+    - Big Data
+- Data &amp; Data Sources:
+  - Data:
+    - **Structured Data:**
+      - Quantitative
+      - g: Data Warehouses, Relational Databases
+      - Several Predetermined Formats
+      - Examples:
+        - Can be displayed in Relational Databases
+        - Numbers,dates,strings
+        -
+    - **Unstructured Data:**
+      - Qualitative
+      - g: Data Lakes, Non-Relational Databases
+      - A huge array of formats
+      - Examples:
+        - Images,Audios,Videos,word-processing-files,emails,spreadsheets
+        - Can not be displayed in rows,columns in Relational Database
+  - Data Sources:
+  - Data Warehouse:
+    - A Single Source of Truth:
+      - Transformed from Raw Data to High Quality Data that will be stored later in warehouse and that process is done with the help of ETL:
+        - **Data Wrangling:**
+          - Extract:
+            - From a source
+            - Passed to Staging Area Before sent directly to warehouse
+            - Handle Structured and UnStructured Data
+            - **Logical Extraction**
+            - **Physical Extraction:**
+              - Online Extraction
+              - Physical Extraction
+          - Transform:
+            - Data Cleaning and Organization
+            - Single System Format
+            - Improving Data Quality
+        - Load:
+          - Data Sent to Warehouse
+          - Batch Loading Operating System:
+            - Groups jobs that perform similar type of functions. These groups are called as batch and are executed at the same time
+          - Incremental Loading
+          - Full Loading
+      - Structuring **All the BEST QUALITY DATA in ONE PLACE**
+    - One Single Place - One Single Source of Information
+    - Where Companies store Valuable Data Assets are stored:
+      - Customer Data
+      - Sales Data
+      - Employees Data
+      - …etc
+  - Features of Data Warehouse:
+    - Subject Oriented
+    - Integrated
+    - Time-Variant
+    - Non-Volatile
+  - Data Lake vs Data WareHouse vs Data Marts:
+    - **Data Lake:**
+      - Contains raw, structured, unstructured data in a quick way to clean and organize later
+      - **Data Warehouse:**
+        - A large collection of organized and clean business data help organization make decisions
+        - Then:
+          - Users
+            - Business Stakeholders
+            - Apps
+            - Programmers Analysts
+            - Data Science Use Cases
+          - Through:
+            - Interfaces
+            - APIs
+            - Applications
+        - **Data Marts:**
+          - Subset of a data warehouse that&#39;s more specific to a particular business domain e.g Finance data mart
+- Data Professionals Process:
+  - 1st Role:
+    - Data Engineer:
+      - **Responsibilities:**
+        - Develop and Maintain Data Architectures
+        - Make Data available for:
+          - Business Operations
+          - Analysis
+        - Make the ETL Process (as we explained earlier)
+      - **Requirements to Be Data Engineer:**
+        - Good Knowledge of Programming
+        - Sound Knowledge of Systems and Technology Architecture
+        - In-Depth understanding of Relational and Non-Relational Databases
+  - 2nd Role:
+    - Data Analyst (Science + Art):
+      - **Responsibilities:**
+        - **Technical Skills:**
+          - **Inspect and clean data** for deriving insights
+          - Identify **Correlations** , Find **Patterns** , and apply **statistical methods** to analyze and mine data
+          - **Visualize Data** to interpret and present the findings of data analysis
+          - Are the people who **answer the questions**
+          - Translates data and numbers into plain language on which organization depend to take decisions
+        - **Functional Skills:**
+          - Proficiency in Statistics:
+            - Analyze Data,
+            - Validate Analysis,
+            - Identify Fallacies and Logical Errors
+          - Analytical Skills:
+            - Research and interpret data, theorize,make forecasts
+          - Problem-Solving Skills:
+          - Probing Skills:
+            - Identify and define the problem statement and desired outcome
+          - Data Visualization Skills
+          - Project Management Skills
+        - **Soft Skills:**
+          - Collaboration work with Cross-Functional Teams
+          - Written and Verbal Communication
+          - Story Telling
+          - Gather Support and buy-in for your work
+          - Curiosity:
+            - New Questiosn
+            - Challenging your own hypothesis
+          - Intuition:
+            - Future based on pattern recognition and past experiences
+      - **Requirements to Be a Data Analyst:**
+        - Good Knowledge of:
+          - Spreadsheets
+          - Writing Queries
+          - Statistical tools to create charts and dashboards
+        - Programming Skills
+        - Strong Analytical and story-telling Skills
+      - **Applications of Data Analytics in today&#39;s world:**
+        - Used by **companies** to identify what **information**** consumers **want them to** share**
+        - Used by **people** with **diabetes** monitoring sugar levels
+        - Sales **Pipeline analysis**
+        - Financial **Reporting**
+        - Airlines,Banking,...etc
+        - Use of **Sentiment analysis** of tweets and stories to inform investment decisions
+        - Use of **satellite imagery data** to track the **development** of **industrial activities**
+  - 3rd Role:
+    - Data Scientist:
+      - **Responsibilities** :
+        - Analyze data for actionable insights
+        - Create Predictive Models using Machine and Deep Learning
+        - &quot;More nearer to **answering future questions**&quot;
+      - **Requirements to Be a Data Scientist:**
+        - Knowledge of Math and Statistics
+        - Understanding Programming Languages,databases,building data models
+        - Domain Knowledge
+  - 4th Role:
+    - Business Analyst and BI Analyst:
+      - **Responsibilities** :
+        - Data Analyst Role + Data Scientist Role
+        - Focus more on market forces and external influences that shape their business
+  - Connection between Roles:
+    - **Data Engineer:**
+      - Convert Raw data into usable data
+      - **Data Analytics:**
+        - Use this data to generate insights
+        - **Data Scientist:**
+          - Use Data Analytics + Data Engineer to predict the future using data from past
+          - **Business Analyst and BI Analyst:**
+            - Use these insights and predictions to drive decisions that benefit and grow their business
+- Different Types of Data Analysis:
+  - **Descriptive Analytics:**
+    - What Happened?
+      - Provides Insights into past events
+  - **Diagnostic Analytics:**
+    - Why did it happen?
+      - Insights from Descriptive Analytics to dig deeper to find the cause of outcome
+  - **Predictive Analytics:**
+    - What **might happen** in Future?
+      - Leverages historical data and trends to predict future outcomes
+      - All **Predictions** are **probabilistic** in Nature
+  - **Prescriptive Analytics:**
+    - What should be done about it?
+    - Ex: Self-Driving Cars:
+      - Analyze environments to make decisions regarding speed,chanings lanes,which route to take
+- The Data Analysis Process:
+  - **Understand the Problem and Desired Result:**
+    - Where you&#39;re are, and where you want to be
+    - Working Hypotheses:
+      - Initial Hypotheses
+  - **Setting a clear metric:**
+    - What will be measured and how it will be measured
+  - **Gathering Data:**
+    - Identify the datasets that I&#39;m going to isolate and analyze to validate or refute my hypyothesis
+  - **Cleaning Data:**
+    - Fix Quality Issues in the Data that affect the accuracy of analysis , data standardization
+    - Clean data from Missing,Incomplete,outliers values
+  - **Analyzing and Mining Data:**
+    - Extracting,Analyzing,and Manipulating data from different perspective to understand trends,identify correlations,find patterns and variations
+  - **Interpreting Results:**
+    - Circumstances under which your analysis may not hold true
+  - **Presenting your findings:**
+    - Maps
+    - Charts
+
+## 2nd Week - The Data Ecosystem &amp; Languages for Data Pros:
+
+-
+
+##
