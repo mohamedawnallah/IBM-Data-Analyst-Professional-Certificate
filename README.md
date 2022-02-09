@@ -27,7 +27,49 @@
   - **Emerging Technologies shaping the modern data ecosystem:**
     - Cloud Technologies
     - Machine Learning
-    - Big Data
+    - Big Data:
+      - V&#39;s Of Big Data:
+        - **Velocity:**
+          - The speed at which data accumulates
+        - **Volume:**
+          - Increase in Data Source
+          - High Resolution Sensors
+          - Scalable Infrastructure
+        - **Variety:**
+          - Diversity of Data:
+            - Type:
+              - Structured
+              - Semi-Structured
+              - UnStructured
+            - Sources:
+              - Machines
+              - Peoples
+              - Processes
+        - **Veracity:**
+          - Quality and Origin of Data
+          - **Attributes** :
+            - Consistency
+            - Completeness
+            - Integrity
+            - Ambiguity
+          - **Drivers:**
+            - Cost
+            - Need for Traceability
+        - **Value:**
+          - Turn Data into Value
+      - **Big Data Processing Tools:**
+        - Apache Spark:
+          - A Distributed Analytics framework for complex, real-time data analytics
+        - Apache Hadoop:
+          - Collection of tools that provides:
+            - Distributed Storage
+            - Processing of Big Data
+          - **Node** is a Single **Computer**
+          - **Collection** of **Nodes** forms a **Cluster**
+          - Hadoop Distributed File System
+        - Apache Hive:
+          - A Data **Warehouse** for data **query** and **analysis**
+          - Build **on Top of Hadoop**
 - Data &amp; Data Sources:
   - Data:
     - **Structured Data:**
@@ -37,65 +79,188 @@
       - Examples:
         - Can be displayed in Relational Databases
         - Numbers,dates,strings
-        -
+        - SQL Databases
+        - Online Transaction Processing Systems (OLTP) that focus on business transactions
+        - Spreadsheets
+        - Online Forms
+        - Sensors GPS
+        - Radio Frequency Identification (RFID)
+        - Network and Web Server Logs
+    - **Semi-Structured Data:**
+      - Lacks a fixed or rigid schema
+      - Tags ,Elements, MetaData which is used to group data and organize it in a hierarchy
+      - Examples:
+        - **Email** :
+          - Structured Data:
+            - Name of the Sender and Recipient
+          - UnStructured Data:
+            - The Content
+        - **XML and other Markup Langauges**
+        - **Binary Executables**
+        - **TCP / IP Packets**
+        - **Zipped Files**
+        - **Integration of Data**
     - **Unstructured Data:**
       - Qualitative
+      - Data is Complex and mostly qualitative information that is **impossible to reduce to Rows and Columns**
       - g: Data Lakes, Non-Relational Databases
       - A huge array of formats
       - Examples:
         - Images,Audios,Videos,word-processing-files,emails,spreadsheets
         - Can not be displayed in rows,columns in Relational Database
-  - Data Sources:
-  - Data Warehouse:
-    - A Single Source of Truth:
-      - Transformed from Raw Data to High Quality Data that will be stored later in warehouse and that process is done with the help of ETL:
-        - **Data Wrangling:**
-          - Extract:
-            - From a source
-            - Passed to Staging Area Before sent directly to warehouse
-            - Handle Structured and UnStructured Data
-            - **Logical Extraction**
-            - **Physical Extraction:**
-              - Online Extraction
-              - Physical Extraction
-          - Transform:
-            - Data Cleaning and Organization
-            - Single System Format
-            - Improving Data Quality
-        - Load:
-          - Data Sent to Warehouse
-          - Batch Loading Operating System:
-            - Groups jobs that perform similar type of functions. These groups are called as batch and are executed at the same time
-          - Incremental Loading
-          - Full Loading
-      - Structuring **All the BEST QUALITY DATA in ONE PLACE**
-    - One Single Place - One Single Source of Information
-    - Where Companies store Valuable Data Assets are stored:
-      - Customer Data
-      - Sales Data
-      - Employees Data
-      - …etc
-  - Features of Data Warehouse:
-    - Subject Oriented
-    - Integrated
-    - Time-Variant
-    - Non-Volatile
-  - Data Lake vs Data WareHouse vs Data Marts:
-    - **Data Lake:**
-      - Contains raw, structured, unstructured data in a quick way to clean and organize later
-      - **Data Warehouse:**
-        - A large collection of organized and clean business data help organization make decisions
-        - Then:
-          - Users
-            - Business Stakeholders
-            - Apps
-            - Programmers Analysts
-            - Data Science Use Cases
-          - Through:
-            - Interfaces
-            - APIs
-            - Applications
-        - **Data Marts:**
+        - **Web Pages**
+        - **Social Media Feeds**
+        - **Images in Varied File Formats**
+        - **Video and Audio Files**
+        - **Documents and PDF Files**
+        - **PowerPoint Presentations**
+        - **Media Logs**
+        - **Surveys**
+      - Ways to Store:
+        - Files and Docs:
+          - Manual Analysis
+        - NOSQL:
+          - Analysis Tools
+  - Data Formats:
+    - Relational Database
+    - Non-Relational Database
+    - APIs
+    - Web Services
+    - Data Streams
+    - Social Platforms
+    - Sensor Devices
+  - Languages Available in Data Analyst Ecosystem:
+    - **Query Languages:**
+      - SQL:
+        - Querying and Manipulating Data
+        - CRUD Operations in a database
+        - Write Store Procedures:
+          - Write a set of instructions and call them for later user
+        - Runs on an interpreter system
+    - **Programming Languages:**
+      - Python **:**
+        - Supports multiple programming paradigms - Object Oriented, Imperative, Functional, and procedural
+        - **Libraries** :
+          - Pandas:
+            - Data Cleaning and Analysis
+          - Numpy and Scipy:
+            - Statistical Analysis
+          - Beautiful Soup, Scrapy:
+            - Web Scraping
+          - Matplotlib and Seaborn:
+            - Data Visualization
+      - R:
+        - Facilitates handling of structured and unstructured data
+    - **Shell and Scripting Languages:**
+      - For Repetitive and Time-Consuming Operational Tasks
+      - Examples:
+        - Unix/Linux Shell:
+          - Written Program for the UNIX shell. It is a series of **UNIX commands** written in **a plain text file** to accomplish a specific task
+          - **Operations:**
+            - File Manipulation
+            - Program Execution
+            - **System Administration Tasks:**
+              - Disk backups
+              - Evaluating System Logs
+            - Installation scripts for complex programs
+            - Executing routine backups
+            - **Running batches**
+        - PowerShell:
+          - Cross-Platform Automation Tool, Configuration Framework by Microsoft
+          - Optimized for working with structured data formats:
+            - JSON
+            - CSV
+            - XML
+            - REST Apis
+            - Websites
+            - Office Applications
+          - Components:
+            - Command Line Shell + Scripting Language
+            - Object-Based:
+              - Filter / Measure / Group / Compare Objects
+          - Used In:
+            - Data Mining
+            - Building GUIs
+            - Creating Charts, Dashboard, Interactive Reports
+  - Data Sources | Repositories:
+    - Databases | Data Warehouses | Data Marts | Data Lakes | Big Data Stores
+    - **Type of Data** &amp; **File Formats** &amp; **Sources of Data** influence the type of data repositories that you could use
+    - Data Repository is a general term used to refer the data that has been **collected** , **organized** , and **isolated:**
+      - Used in **Business Operations**
+      - Used in **Mining for Reporting and Data Analysis**
+    - Types of Data Repositories ↓
+    - **Data Warehouse:**
+      - Consolidate data in one Place through ETL Process
+      - A Single Source of Truth:
+        - Transformed from Raw Data to High Quality Data that will be stored later in warehouse and that process is done with the help of ETL:
+          - Process of how Raw Data is converted into analysis-ready data
+          - It&#39;s common to see the terms **ETL** and **Data**** Pipelines **used** interchangeably**
+          - Data Pipelines:
+            - Entire Journey of moving data from one system to another, Including ETL Process which is a subset of Data Pipeline Entire journey
+            - Can be used for batch and streaming data
+          - **Data Wrangling:**
+            - Extract:
+              - Ways:
+                - **Batch-Processing** - Large Chunks of data moved from source to destination at scheduled intervals Tools: **Slitch** &amp; **Blendo**
+                - **Stream Processing** - Data Pulled in **real-time** from source, transformed in **transit** , and **loaded** into **data transit** Tools : Apache Samza,Storm,Kafka
+              - From a source
+              - Passed to Staging Area Before sent directly to warehouse
+              - Handle Structured and UnStructured Data
+              - **Logical Extraction**
+              - **Physical Extraction:**
+                - Online Extraction
+                - Physical Extraction
+            - Transform:
+              - Row Data to Data used for Analysis
+              - Data Cleaning and Organization
+                - Single System Format
+                - Improving Data Quality
+          - Load:
+            - **Steps:**
+              - **Initial Loading:**
+                - **Populating**** all of the data** in the repository
+              - **Incremental Loading:**
+                - Applying **updates** and **modifications** Periodically
+              - **Full Refresh:**
+                - **Erasing** contents from one of tables and **reloading**** refresh data**
+            - Data Sent to Warehouse
+            - **Load Verifications** Checks for:
+              - **Missing or null Values**
+              - **Server Performance**
+              - **Load Failures**
+            - Batch Loading Operating System:
+              - Groups jobs that perform similar type of functions. These groups are called as batch and are executed at the same time
+            - Incremental Loading
+            - Full Loading
+        - Structuring **All the BEST QUALITY DATA in ONE PLACE**
+      - One Single Place - One Single Source of Information
+      - Where Companies store Valuable Data Assets are stored:
+        - Customer Data
+        - Sales Data
+        - Employees Data
+        - …etc
+    - Features of Data Warehouse:
+      - Subject Oriented
+      - Integrated
+      - Time-Variant
+      - Non-Volatile
+    - Data Lake vs Data WareHouse vs Data Marts:
+      - **Data Lake:**
+        - Contains raw, structured, unstructured data in a quick way to clean and organize later
+        - Data Lake is a **pool** of **raw** data where each data element is given **a unique identifier** and is **tagged** with **metatags** for further use
+        - **Data Warehouse:**
+          - A large collection of organized and clean business data help organization make decisions
+          - Then:
+            - Users
+              - Business Stakeholders
+              - Apps
+              - Programmers Analysts
+              - Data Science Use Cases
+            - Through:
+              - Interfaces
+              - APIs
+              - Applications
+          - **Data Marts:**
           - Subset of a data warehouse that&#39;s more specific to a particular business domain e.g Finance data mart
 - Data Professionals Process:
   - 1st Role:
@@ -217,6 +382,197 @@
 
 ## 2nd Week - The Data Ecosystem &amp; Languages for Data Pros:
 
--
+- A Data Analyst&#39;s Ecosystem includes the Infrastructure, Software, Tools, Frameworks, And Processes used to:
+  - Gather Data
+  - Clean Data
+  - Mine Data
+  - Visualize Data
+- Data Comprises:
+  - Facts, Observations, Perceptions
+  - Number, Characters, Symbols
+  - Images
+- Standard File Formats:
+  - Delimited Text File Formats e.g CSV:
+    - Files used to store data as text each value is separated by a delimiter
+    - Delimiter:
+      - A **sequence** of one or more characters for specifying the **boundary** between **independent entities or values**
+      - Common Delimiters:
+        - Comma
+        - Tab
+        - Colon
+        - Vertical Bar
+        - Space
+      - Common used Types:
+        - Comma-Separated Values:
+          - **The First Row** works as a **Column Header** where each Column can have a different type of data
+        - Tab-Separated Values
+      -
+  - Microsoft Excel Open .XML SpreadSheet or .XLSX:
+    - Open File Format, Accessible to most other applications
+    - Is **a Secure File Format** as it **cannot save malicious code**
+  - Extensible Markup Language .XML:
+    - **Markup language** with set **rules** for **encoding** data
+    - **Self-Descriptive Language** for **sending info** over the internet
+    - **Does not** use **predefined** tags like **.HTML does**
+    - Platform Independent
+  - Portable Document Format or .PDF:
+    - Can also be used to **fill** in data for **forms**
+  - JavaScript Object Notation or .JSON:
+    - **Text-Based** open Standard Designed for **Transmitting**** structured ****data** over the web
+    - Can be **read** in **any programming language**
+    - Considered as one of the best tools for **sharing data**
+- Common Sources of Data:
+  - Databases:
+    - Relational Databases:
+      - Tabular Format with Rows and Columns
+      - Optimized for data operations and querying
+      - Using SQL as the standard querying language for Relational Databases
+      - **Support &amp; Open-Source Classifications:**
+        - Open-Source with **internal support**
+        - Open-Source with **commercial support**
+        - **Commercial closed-source**
+        - Cloud-Based Relational Databases, or Database-as-a-Service:
+          - Google SQl
+          - IBM DB2 on CLoud
+          - ORACLE cloud
+          - Azure SQL
+      - **Create Meaningful Information** by joining tables
+      - **Minimize Data Redundancy**
+      - **Backup and disaster recovery**
+      - **ACID Compliant** Ensures:
+        - Atomic
+        - Consistency
+        - Isolation
+        - Durability
+      - Limitations of RDBMS:
+        - Does not work well with semi-structured and unstructured data
+        - Migration (need to be identical)
+      - Examples:
+        - Microsoft SQL Server
+        - Oracle
+        - MySQL
+        - IBM DB2
+    - Non-Relational Databases:
+      - Synonyms:
+        - NoSQL
+        - Not Only SQL
+        - Non SQL
+      - Allows data to be stored in a schema-less or free-form fashion
+      - Pros:
+        - Its ability to handle large volumens of structured, semi-structured, and unstructured data
+        - Run as a distributed system scaled across multiple data centers
+        -
+      - **Types:**
+        - **Key-Value Store:**
+          - Data is stored as a collection of key-value pairs
+          - Usages:
+            - **User Session Data**
+            - **User Preferences**
+            - **Real-Time Recommendations**
+            - Targeted Advertising
+            - **In-Memory Data Caching**
+          - Not a Great fit if you want to:
+            - **Query** data on a **specific** data value
+            - Need **Relationships** between **data**** values**
+            - Need **multiple unique keys**
+        - **Document Based:**
+          - Store each record and its associated data within a single document
+          - Usages:
+            - E-Commerce Platforms
+            - Medical Records Storage
+            - CRM Platforms
+            - Analytical Platforms
+          - Not a Great fit if you want to:
+            - Run Complex Search Queries
+            - Perform multi-operation transactions
+          - Examples:
+            - Mongo DB
+            - Document DB
+            - Couch DB
+            - Cloudant
+        - **Column Based:**
+          - Data is stored in cells grouped as columns of data instead of rows
+          - **A logical grouping of columns** is referred to as **a column family**
+        - **Graph Based:**
+          - Useful for **visualizing** , **analyzing** , and finding **connections** between **different** pieces of data
+          - Usages:
+            - Social Networks
+            - Product Recommendations
+            - Network Diagrams
+            - Fraud Detection
+            - Access Management
+          - Not a Great fit if you want to:
+            - Process High Volumes of transactions
+      -
+    - **NOTE:**
+      - Even though a **database** and **DBMS** mean different thing the terms are often used **interchangeably**
+    - Factors governing choice of database:
+      - Data Type
+      - Data Structure
+      - Querying Mechanisms
+      - Latency Requirements
+      - Transaction speeds
+      - Intended use of data
+  - Flat Files and XML Datasets:
+    - Visibility:
+      - Public
+      - Privat
+    - Flat Files:
+      - Store data in plain Text Format
+      - Each line, or row, is one record
+      - Each value is separated by a delimiter
+      - All of the data in a flat files maps to a single table
+    -
+  - APIs and Web Services:
+    - Typically listen for incoming requests:
+      - Web Requests
+      - Network Request
+    - Return Data in:
+      - Plain Text
+      - HTML
+      - XML
+      - JSON
+      - Media Files
+    - **Popular Examples of APIs:**
+      - **Twitter and Facebook APIs** :
+        - Customer Sentiment Analysis
+        - Opinion Mining
+        - **Purpose:**
+          - To summarize the amount of appreciation or criticism on a given subject
+      - **Stock Market APIs:**
+        - For Trading and Analysis
+      - **Data Lookup and Validation APIs:**
+        - Cleaning and Correlating Data
+  - Web Scraping:
+    - Extract Data from Unstructured Sources
+    - Synonyms:
+      - Screen Scraping
+      - Web Harvesting
+      - Web Data Extraction
+    - **Popular uses:**
+      - Collecting product Details from retailers, Manufacturers, and E-Commerce Websites
+      - Generating sales leads through public data sources
+      - Extracting data from posts and authors on various formats
+      - **Collecting**** training **and** testing **datasets for** machine learning models**
+    - **Popular Web Scraping Tools:**
+      - Beautiful Soup
+      - Scrapy
+      - Pandas
+      - Selenium
+  - Data Streams and Feeds:
+    - Sources:
+      - Instruments
+      - IOT Devices
+      - Applications
+      - GPS Data
+      - Websites
+      - Social Media Posts
+    - Technologies to process data streams:
+      - Kafka
+      - Apache Spark Streaming
+      - Apache Storm
+  - RSS:
+    - Really Simple Syndication Feeds
+    - Capturing updated data from online forums and news sites where data is refreshed on an ongoing basis
 
 ##
