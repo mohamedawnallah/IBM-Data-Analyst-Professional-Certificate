@@ -5,11 +5,45 @@
 ## 1st Week - Intro to Data Analytics:
 
 - Data Analytics Career Path:
-  - Associate Data Analyst
-  - Data Analyst
-  - Senior Data Analyst
-  - Lead Data Analyst
-  - Principal Data Analyst
+  - **Data Analyst Specialist Roles:**
+    - Pathes:
+      - Associate | Junior Data Analyst
+      - Data Analyst
+      - Senior Data Analyst
+      - Lead Data Analyst
+      - Principal Data Analyst
+    - Boundaries to move next level:
+      - Years of experience
+      - Nature of experience for the next level
+      - Vary depending on:
+        - Industry
+        - Size of organization
+        - How big your team is
+  - **Domain Specialist Roles:**
+    - Need a Specialization in Specific Domain:
+      - Healthcare
+      - Finance
+      - Social Media
+      - Digital Marketing
+    - May or may not be technically skilled people
+    - Examples:
+      - HR Analyst
+      - Marketing Analyst
+      - Sales Analyst
+      - Healthcare Analyst
+      - Social Media Analyst
+  - **Analytics-Enabled Job Roles:**
+    - Examples:
+      - Project Managers
+      - Marketing Managers
+      - HR Managers
+  - **Other Data Professionals:**
+    - Examples:
+      - Data Engineers
+      - Data Scientists
+      - Business Analysts
+      - Business Intelligence Analysts
+
 - Branching into other data professions:
   - Data Science
   - Data Engineering
@@ -179,7 +213,37 @@
             - Object-Based:
               - Filter / Measure / Group / Compare Objects
           - Used In:
-            - Data Mining
+            - Data Mining:
+              - The Process of Extracting Knowledge from data
+              - Goals to find:
+                - Correlations
+                - Patterns
+                - Variations
+                - Understanding Trends
+                - Predict Probabilities
+              - Tools for Data Mining:
+                - Spreadsheets:
+                - Excel Add-ins
+                - R-Language
+                - Python
+              - _ **Classification:** _
+                - Classifying **Attributes** into **target categories**
+              - _ **Clustering:** _
+                - Involves grouping data into **clusters** so they can be treated as **groups**
+              - _ **Anomaly or Outlier Detection:** _
+                - Finding Patterns in Data that are not **normal** or **unexpected**
+              - _ **Association Rule Mining:** _
+                - Establishing a relationship between two data events
+              - _ **Sequential Patterns** _
+              - _ **Affinity Group** _
+              - _ **Decision trees:** _
+                - _Building a classification model that helps out building a clear understanding of relationship between input and output_
+              - _ **Regression** _:
+                - Identifying the nature of relationship between two variables which could be **causal** or **correlational**
+              - Applications:
+                - Profiling Customer Behaviors
+                - Tracking Unusual Behaviors in Customer transactions at financial institutions
+                -
             - Building GUIs
             - Creating Charts, Dashboard, Interactive Reports
   - Data Sources | Repositories:
@@ -347,10 +411,10 @@
             - Use these insights and predictions to drive decisions that benefit and grow their business
 - Different Types of Data Analysis:
   - **Descriptive Analytics:**
-    - What Happened?
+    - **What** Happened?
       - Provides Insights into past events
   - **Diagnostic Analytics:**
-    - Why did it happen?
+    - **Why** did it happen?
       - Insights from Descriptive Analytics to dig deeper to find the cause of outcome
   - **Predictive Analytics:**
     - What **might happen** in Future?
@@ -377,8 +441,33 @@
   - **Interpreting Results:**
     - Circumstances under which your analysis may not hold true
   - **Presenting your findings:**
-    - Maps
-    - Charts
+    - Initial Questions:
+      - **Who** is my **audience**?
+      - **What** is **important** to them?
+      - **What** will **help** them **trust** me?
+    - Notes:
+      - **Data** you collected is like **a black box** for **audience**
+      - **IT DOES NOT MATTER WHAT INFORMATION YOU HAVE IF YOU CAN&#39;T COMMUNICATE IT EFFECTIVELY TO YOUR AUDIENCE**
+    - Data Visualization:
+      - Types:
+        - **Bar Charts** :
+          - Comparing **Related Data Sets or parts** of a whole
+        - **Column Charts:**
+          - Compare Values **side-by-side**. You can use them quite effectively to show **change over time**
+        - **Pie Charts:**
+          - Breakdown of an entity into its sub-parts
+        - **Line Charts:**
+          - Display **trends**. They are great for showing how a data value is **changing** in relation to **a continuous variable**
+        - **Dashboards:**
+          - Organize and Display **Reports** and **Visualizations** from **multiple data sources** into a single **GUI**
+          - Provide big, detailed picture by drilling into the next level of info for each param
+      - Tools:
+        - Spreadsheets
+        - Jupyter Notebook and Python Libraries
+        - Tableau
+        - Microsoft Power BI
+        - IBM Cognos Analytics
+        - R-Studio and R-Shiny
 
 ## 2nd Week - The Data Ecosystem &amp; Languages for Data Pros:
 
@@ -574,5 +663,124 @@
   - RSS:
     - Really Simple Syndication Feeds
     - Capturing updated data from online forums and news sites where data is refreshed on an ongoing basis
+
+## 3rd Week - Gathering &amp; Wrangling Data:
+
+- **Gathering Data:**
+  - Determine the Data you want to collect:
+    - The **specific Data** you need
+    - The possible **sources** for this data
+  - Define a Plan for Collecting Data:
+    - Establish a **Timeframe** for collecting data
+    - **How much data** is **sufficient** for a credible **analysis**?
+    - Define **dependencies** , **risks** , and **mitigation** plan
+  - Determine your data collection methods:
+    - The methods depend on:
+      - Sources of Data:
+        - Primary Data:
+          - Data from Organizations&#39;CRM,HR,Workflow applications
+          - Data **you gather** through surveys,interviews,..etc
+        - Secondary Data:
+          - Data Retrieved from **Existing** sources
+          - Examples:
+            - External Databases
+            - Research articles,Publications,Training Material
+            - External Conducted Survetys,..etc
+        - Third-Party Data:
+          - Data **Purchased** from **aggregators** who collect data from **various sources** and combine it into **comprehensive** datasets for purpose of **selling** the **data**
+      - Types of Data
+      - Timeframe over which you need the data
+      - Volume of data
+    - Basic Key Considerations:
+      - Data Quality:
+        - Conditions:
+          - Free of Errors
+          - Accurate
+          - Complete
+          - Relevant
+          - Accessible
+        - Examples of Bad Quality Data:
+        - Missing Data
+        - Inconsistent Data
+        - Incorrect Data
+        - **This will lead to:**
+          - **False Conclusions**
+          - **Ineffective Decisions**
+      - Data Governance:
+        - Data Security
+        - Data Regulation
+        - Data Compliances
+- **Data Wrangling | Data Munging:**
+  - Iterative process for converting Raw Data to Data ready for analysis
+  - Processes:
+    - **Discovery** Phase
+    - **Transformation** Phase:
+      - **Structuring:**
+        - **Joins &amp; Unios** (common Structural Transformations)
+      - Normalizing and Denormalizing Data:
+        - **Normalization** :
+          - Processes:
+            - Cleaning **Unused Data**
+            - Reducing Redundancy
+            - Reducing Inconsistency
+          - Example:
+            - Data Coming from Transaction Systems must be normalized following ACID Principles in the First Place
+        - **Denormalization** :
+          - Processes:
+            - **Combining** Data from **Multiple** Tables into a **Single** Table for **faster querying** of data for reports and analysis
+          - Examples:
+            - Normalized Data coming from Transactional Systems are typically **denormalized** before running queries for reporting and analysis
+      - **Cleaning** Data:
+        - Missing Data
+        - Null Values
+        - Duplicate Data
+        - Irrelevant Data
+        - Data Type Conversion
+        - Outliers
+      - **Enriching** Data:
+        - Adding Data Points that make your analysis more meaningful
+    - **Validation** Phase:
+      - Quality, Security of Data
+    - **Publishing** Phase
+  - Tools for Data Wrangling:
+    - Excel Power Query | Spreadsheets
+    - OpenRefine
+    - Google DataPrep
+    - Watson Studio Refinery
+    - Trifacta Wrangler
+    - Python
+    - R
+
+## 4th Week - Overview of Statistical Analysis:
+
+- Statistics:
+  - A branch of Math dealing with:
+    - **Collection**
+    - **Analysis**
+    - **Interpretation**
+    - **Presentation of Quantitative Data**
+  - Types of Statistics:
+    - Descriptive Statistics:
+      - **Summarizing** Information about the Sample
+      - Common Measures:
+        - Central Tendency:
+          - Mean
+          - Median
+          - Mode
+        - Dispersion:
+          - Variance
+          - Standard Deviation:
+            - How **Tightly** your data is **Clustered** around the **mean**
+          - Range
+        - Skewness:
+          - Symmetrical
+          - Skewed Left
+          - Skewed Right
+    - Inferential Statistics:
+      - Making **Inferences** or **Generalizations** about the broader population
+      - Common methodologies of Inferential Statistics:
+        - **Hypothesis Testing**
+        - **Confidence Intervals**
+        - **Regression Analysis**
 
 ##
